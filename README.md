@@ -18,8 +18,11 @@ Learnings from going through the go-fundamentals course by Nigel Poulton
 
 
 ##Functions  
+- Functions make your code concise,re-usable, easy to test & debug
 - all statements within a function is enclosed within {}
 -  Params and returns are defined within the func signature
 -  The return keyword exits a function 
 - Go functions can return multiple values
-- Variadic functions
+- Variadic functions - functions that can have an unknown number of paramters
+
+
