@@ -25,4 +25,9 @@ Learnings from going through the go-fundamentals course by Nigel Poulton
 - Go functions can return multiple values
 - Variadic functions - functions that can have an unknown number of paramters
 
+## Conditionsals
+- 'If' conditions evaulate a Boolean expression for true or false
+- Curly brance must start on the same line of the if
+- No Parentheses around the if condition.
+
 
