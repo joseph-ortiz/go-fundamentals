@@ -2,10 +2,12 @@ package main
 
 import (
 	"fmt"
+
+	"os"
 )
 
 func main() {
-	name := "Nigel"              //Name of the subscriber
+	name := os.Getenv("USER")    //'USERNAME' for Windows or 'USER'for OS X
 	course := "Docker Deep Dive" // Course being viewed
 
 	fmt.Println("\nHi", name, "you,re currently watching",
