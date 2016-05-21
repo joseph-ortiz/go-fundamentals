@@ -13,22 +13,23 @@ Learnings from going through the go-fundamentals course by Nigel Poulton
 -  Go supports type inference
 -  Go passes arguments by value
 - '&' References a pointer
-- '*' De-References a pointer
-- Go Passes arguments by VALUE 
+-  `*` De-References a pointer
+- Go Passes arguments by VALUE
 
 
 ##Functions  
 - Functions make your code concise,re-usable, easy to test & debug
 - all statements within a function is enclosed within {}
 -  Params and returns are defined within the func signature
--  The return keyword exits a function 
+-  The return keyword exits a function
 - Go functions can return multiple values
 - Variadic functions - functions that can have an unknown nu
 mber of paramters
 
-## Conditionsals
+
+## Conditionsals  
 - 'If' conditions evaulate a Boolean expression for true or false
-- Curly brance must start on the same line of the if
+- Curly brance must start on the same line of the if,else if, and else statements
 - No Parentheses around the if condition.
 -  Simple initlaization Statements in if blocks. This allows block scoped variables
 - `Switch` statements have an optional simple statement and an expression to be evaulated.
