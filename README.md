@@ -1,6 +1,8 @@
 # go-fundamentals  
 ![Golang Gopher](https://golang.org/doc/gopher/bumper640x360.png)  
 
+NOTE: for single file use and demo purposes, I have multiple main files because this is not a conventional package. I am aware that a go package can only have one main Func.
+
 Learnings from going through the go-fundamentals course by Nigel Poulton
 
 ##Variables  
