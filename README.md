@@ -21,3 +21,5 @@ Learnings from going through the go-fundamentals course by Nigel Poulton
 - all statements within a function is enclosed within {}
 -  Params and returns are defined within the func signature
 -  The return keyword exits a function 
+- Go functions can return multiple values
+- Variadic functions
