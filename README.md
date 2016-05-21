@@ -29,5 +29,5 @@ Learnings from going through the go-fundamentals course by Nigel Poulton
 - 'If' conditions evaulate a Boolean expression for true or false
 - Curly brance must start on the same line of the if
 - No Parentheses around the if condition.
-
+-  Simple initlaization Statements in if blocks. This allows block scoped variables
 

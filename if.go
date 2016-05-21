@@ -6,11 +6,13 @@ import (
 
 func main() {
 	//Variables to store course rankings
-	firstRank := "39"
-	secondRank := "614"
 
-	if firstRank < secondRank {
+	if firstRank, secondRank := 120, 614; firstRank < secondRank {
 		fmt.Println("\nSecond course is doing better than first course")
+		if firstRank > 100 {
+			fmt.Println("Errr, you may wanna" +
+				" consider another job :-D")
+		}
 	} else if firstRank > secondRank {
 		fmt.Println("\nFirst course is doing better than second course")
 	} else {
