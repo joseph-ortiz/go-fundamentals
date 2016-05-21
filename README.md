@@ -23,11 +23,19 @@ Learnings from going through the go-fundamentals course by Nigel Poulton
 -  Params and returns are defined within the func signature
 -  The return keyword exits a function 
 - Go functions can return multiple values
-- Variadic functions - functions that can have an unknown number of paramters
+- Variadic functions - functions that can have an unknown nu
+mber of paramters
 
 ## Conditionsals
 - 'If' conditions evaulate a Boolean expression for true or false
 - Curly brance must start on the same line of the if
 - No Parentheses around the if condition.
 -  Simple initlaization Statements in if blocks. This allows block scoped variables
-
+- `Switch` statements have an optional simple statement and an expression to be evaulated.
+-  Switches have cases to be evaluated and a default statement at the end
+- A switches case statement has an implicit break statements
+- Switches have a fallthrough keyword to run case blocks underneath it. this is case by case basis meaning that a fallthrough keyword only falls through to the next if block
+- Switch statements can more than one value for a case
+- In Go, it is expected to have an error as the last return from functions and emethods
+- In errrors, nil is used to indicate success
+- It is expected to check returned err variables
