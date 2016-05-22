@@ -39,3 +39,14 @@ mber of paramters
 - In Go, it is expected to have an error as the last return from functions and emethods
 - In errrors, nil is used to indicate success
 - It is expected to check returned err variables
+
+##Loops
+-  has one keyword for loops. a "for" loop
+-  for with a blank expression = infinite loop
+-  boolean expression
+-  for...range
+- Pre and Post statements
+- Nested
+- Continue and Break
+- Go has a break to a label feature
+
