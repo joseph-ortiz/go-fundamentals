@@ -57,3 +57,11 @@ mber of paramters
 - Slices are built on top of an Array.
 - Slices are references that pass portions of an array. 
 - Data is never slices in an array!
+- Slices are left side inclusive. The right side is excluded.
+- an array is sliced with [0:4], you will get the value at index 0,1,2,3 and 3.
+- when appending to a slice, once we hit capacity, the underlying array is doubled. Thus we are doubling the capacity.
+- Refrencing a slice by it's variable name, it will show the entire slice
+- for range loops iterate slices
+- for range returns two values, an index and data
+- Can append() slices to slices with ellippses
+
