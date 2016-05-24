@@ -55,7 +55,7 @@ mber of paramters
 - Arrays are a numbered list of a single type and has a fixed length
 - Slices are also a numbered list of a single type but can be resized.
 - Slices are built on top of an Array.
-- Slices are references that pass portions of an array. 
+- Slices are references that pass portions of an array.
 - Data is never slices in an array!
 - Slices are left side inclusive. The right side is excluded.
 - an array is sliced with [0:4], you will get the value at index 0,1,2,3 and 3.
@@ -64,4 +64,7 @@ mber of paramters
 - for range loops iterate slices
 - for range returns two values, an index and data
 - Can append() slices to slices with ellippses
+- Use slices instead of an array for flexibility
+
+
 
