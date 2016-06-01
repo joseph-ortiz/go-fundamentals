@@ -85,6 +85,7 @@ mber of paramters
 - Go has no objects,classes, nor inheritance.
 
 ##Concurrency
+- Concurrency != Parallelism
 - Go's concurrency model
 - Communication Sequential Processes (CSP)
 - Uses channels for safe communication
@@ -106,3 +107,7 @@ mber of paramters
 - + Less switching
 - + Faster start-up times
 - + Safe communication 
+- UnBuffered channels = channels with make()
+- Unbuffered channels locks until a goroutine picks up something
+- Buffered channels. Sending GoRoutine can continually drop data to the channel. Providing an async behavior.
+- When getting data off a channel, it will lock it
