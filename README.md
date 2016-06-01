@@ -84,3 +84,13 @@ mber of paramters
 - Go's way of defining Custom data types.
 - Go has no objects,classes, nor inheritance.
 
+##Concurrency
+- What is Concurrency? Creating multiple "processes" that execute INDEPENDENTLY.
+>"... concurrency is the ___composition___ of  
+>independently executing processes, while  
+>parallelism is the simultaneous ___execution___ of  
+>(possibly related) computations. Concurrency is  
+>about ___dealing___ with lots of things at once.  
+>Parallelism is about ___doing___ lots of things at once."  
+>-- Rob Pike
+- Sending multiple emails while waiting for a response.
