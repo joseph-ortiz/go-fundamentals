@@ -66,5 +66,19 @@ mber of paramters
 - Can append() slices to slices with ellippses
 - Use slices instead of an array for flexibility
 
+##Maps
+- Unordered list
+- Similar to slices and pointers
+- Maps are dynamic
+- Maps are references
+- Needs keytype and val type when creating a map.
+- Passed to functions by reference
+- Changes made by functions visible caller
+- Unsafe for concurrency
+- Cheapt to pass around.
+- Specify size for large maps.
+- make(map<keyType><valueType>, size) 
+- Can improve peformance
+
 
 
