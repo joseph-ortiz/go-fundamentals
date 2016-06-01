@@ -85,6 +85,9 @@ mber of paramters
 - Go has no objects,classes, nor inheritance.
 
 ##Concurrency
+- Go's concurrency model
+- Communication Sequential Processes (CSP)
+- Uses channels for safe communication
 - What is Concurrency? Creating multiple "processes" that execute INDEPENDENTLY.
 >"... concurrency is the _composition_ of  
 >independently executing processes, while  
@@ -94,3 +97,12 @@ mber of paramters
 >Parallelism is about _doing_ lots of things at once."  
 >-- Rob Pike
 - Sending multiple emails while waiting for a response.
+- Go's doesn't touch threads directly
+- goroutines handle threads for us.
+- goroutines vs os Threads
+- + multiple goroutines on a single thread
+- + light weight. (kb in size).
+- + Go manages goroutines.(simpler for programmers)
+- + Less switching
+- + Faster start-up times
+- + Safe communication 
