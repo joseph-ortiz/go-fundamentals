@@ -80,5 +80,7 @@ mber of paramters
 - make(map<keyType><valueType>, size) 
 - Can improve peformance
 
-
+##Structs
+- Go's way of defining Custom data types.
+- Go has no objects,classes, nor inheritance.
 
